@@ -6,24 +6,17 @@
     "start": "next start"
   },
   "dependencies": {
-    "classnames": "^2.3.1",
-    "date-fns": "^2.29.1",
-    "gray-matter": "^4.0.3",
+    "date-fns": "^2.11.1",
+    "gray-matter": "^4.0.2",
     "next": "latest",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "remark": "^14.0.2",
-    "remark-html": "^15.0.1",
-    "sharp": "^0.30.7"
+    "remark": "^14.0.1",
+    "remark-html": "^15.0.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.8",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "postcss": "^8.4.14",
-    "sass": "^1.54.3",
-    "tailwindcss": "^3.1.7"
-  },
-  "extends": [
-    "plugin:react-hooks/recommended"
-  ]
+    "@types/node": "^16.3.3",
+    "@types/react": "^17.0.14",
+    "typescript": "^4.3.5"
+  }
 }
