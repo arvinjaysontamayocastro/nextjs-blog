@@ -19,11 +19,20 @@
   flex: 1;
 }
 .container .nav {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
 }
 .container .nav .link {
-  padding-left: 12px;
   color: unset;
   text-decoration: none;
+  background-color: transparent;
+  padding: 12px;
+}
+.container .nav .link:hover,
+.container .nav .link:active,
+.container .nav .link:focus {
+  background-color: #333333;
 }
 .logoImage {
   display: block;
@@ -33,4 +42,72 @@
 }
 .title {
   margin-left: 5px;
+}
+.menu {
+  width: 44px;
+  height: 50px;
+  padding: 0 12px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+}
+.menu.sidebarmenu {
+  position: absolute;
+  right: 0;
+}
+.menu:hover,
+.menu:active,
+.menu:focus {
+  background-color: rgba(111,111,111,.33);
+}
+.menu span {
+  display: block;
+  position: relative;
+  width: 20px;
+  height: 3px;
+  position: absolute;
+  background-color: #ffffff;
+}
+.menu span:nth-child(1) {
+  top: 18px;
+}
+.menu span:nth-child(2) {
+  top: 25px;
+}
+.menu span:nth-child(3) {
+  top: 32px;
+}
+.sidebar {
+  background-color: rgba(0, 111, 255, .95);
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  top: 0;
+  right: -300px;
+  transition: all 0.5s ease;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.sidebar.nav-open {
+  right: 0;
+}
+.sidebar h2 {
+  margin-top: 5px;
+  font-weight: 1;
+}
+.sidebar a {
+  display: block;
+  position: relative;
+  color: #ffffff;
+  padding: 12px;
+  text-decoration: none;
+}
+.sidebar a:hover,
+.sidebar a:focus,
+.sidebar a:active {
+  background-color: rgba(255, 255, 255, .2);
 }
