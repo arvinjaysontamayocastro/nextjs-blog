@@ -8,12 +8,22 @@
   display: flex;
   position: relative;
   margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
   max-width: 36rem;
   min-height: 50px;
   vertical-align: middle;
   align-items: center;
 }
-.container div {
+.container .title {
+  flex: 1;
+}
+.container .nav {
+}
+.container .nav .link {
+  padding-left: 12px;
+  color: unset;
+  text-decoration: none;
 }
 .logoImage {
   display: block;
