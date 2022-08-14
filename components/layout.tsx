@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Header from './header'
 
 const name = 'AO'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'baseofui | we build online presence'
 
 export default function Layout({
   children,

@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
+import MainLayout from '../components/mainlayout'
 import utilStyles from '../styles/utils.module.css'
+import bodyStyles from '../styles/body.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
@@ -16,8 +18,17 @@ export default function Home({
   }[]
 }) {
   return (
-    <Layout home>
-      <Head>
+    <MainLayout>
+      <div className={bodyStyles.wowalpha}>
+        <pre>Need help with your</pre>
+        <h1>online presence?</h1>
+        <Link href="/portfolio">
+          <a className={bodyStyles.link}>
+            Get started now
+          </a>
+        </Link>
+      </div>
+      {/* <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
@@ -41,8 +52,8 @@ export default function Home({
             </li>
           ))}
         </ul>
-      </section>
-    </Layout>
+      </section> */}
+    </MainLayout>
   )
 }
 
