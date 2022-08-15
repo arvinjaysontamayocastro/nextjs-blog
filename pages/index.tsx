@@ -24,7 +24,7 @@ export default function Home({
         <div className={bodyStyles.containercentered}>
           <pre>Need help with your</pre>
           <h1>online presence?</h1>
-          <Link href="/portfolio">
+          <Link href="/about">
             <a className={bodyStyles.link}>
               Get started now
             </a>
