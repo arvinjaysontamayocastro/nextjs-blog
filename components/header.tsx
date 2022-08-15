@@ -38,14 +38,14 @@ export default function Header() {
           {/* baseofui */}
         </div>
         <nav className={styles.nav}>
-          <Link href="/portfolio">
+          {/* <Link href="/portfolio">
             <a className={styles.link}>
               Portfolio
             </a>
-          </Link>
+          </Link> */}
           <Link href="/about">
             <a className={styles.link}>
-              Contact
+              About
             </a>
           </Link>
           <button className={styles.menu} onClick={() => setIsMenu(!isMenu)}>
