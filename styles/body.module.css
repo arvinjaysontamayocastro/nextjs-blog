@@ -1,11 +1,22 @@
+.containercentered {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+.container {
+  /* max-width: 36rem; */
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
 .wowalpha {
   padding-top: 12vh;
   padding-bottom: 12vh;
 }
-.wowalpha * {
+.wowalpha div * {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue, sans-serif;
-    margin: 0;
+  margin: 0;
 }
 .wowalpha pre {
   font-size: 1em;
@@ -31,4 +42,405 @@
   font-size: 1em;
   display: inline-block;
   text-decoration: none;
+}
+
+.wowservices {
+  border-top: dotted 1px #cccccc;
+  background-color: #ffffff;
+  padding-top: 12vh;
+  padding-bottom: 12vh;
+}
+.wowservices div * {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+  margin: 0;
+}
+.wowservices pre {
+  font-size: 1em;
+  font-weight: bolder;
+  line-height: 1em;
+}
+.wowservices h1 {
+  font-size: 3.33em;
+  font-weight: normal;
+  line-height: 1em;
+}
+.wowservices .link {
+  margin-top: 1em;
+  border: 0;
+  background-color: #eeffee;
+  color: #111111;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: solid 3px #111111;
+  box-shadow: 0 0 5px 1px #cccccc;
+  font-weight: bolder;
+  font-size: 1em;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 12px;
+}
+.wowservices .linkdisabled {
+  margin-top: 1em;
+  border: 0;
+  background-color: #f8f8f8;
+  color: #cccccc;
+  padding: 12px;
+  border-radius: 5px;
+  border: solid 3px #cccccc;
+  font-weight: bolder;
+  font-size: 1em;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 12px;
+  cursor: disabled;
+}
+
+.wowportfolio {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.wowportfolio div * {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+  margin: 0;
+}
+.wowportfolio pre {
+  font-size: 1em;
+  font-weight: bolder;
+  line-height: 1em;
+}
+.wowportfolio h1 {
+  font-size: 3.33em;
+  font-weight: normal;
+  line-height: 1em;
+}
+.wowportfolio .link {
+  margin-top: 1em;
+  border: 0;
+  background-color: #eeffee;
+  color: #111111;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: solid 3px #111111;
+  box-shadow: 0 0 5px 1px #cccccc;
+  font-weight: bolder;
+  font-size: 1em;
+  display: inline-block;
+  text-decoration: none;
+}
+.websitecontainer {
+  display: flex;
+  padding: 25px 0;
+}
+.website {
+}
+.logocardcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 24px;
+  column-gap: 24px;
+  row-gap: 24px;
+  padding-bottom: 24px;
+}
+.logocard {
+  flex: 1;
+  min-width: 200px;
+}
+.logocard a {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: block;
+  box-shadow: 0 0 5px 1px #cccccc;
+  background-color: #eeeeee;
+  padding: 64px;
+  border-radius: 36px 36px 36px 36px;
+}
+.logocard a:hover,
+.logocard a:focus,
+.logocard a:active {
+  box-shadow: 0 0 5px 1px #888888;
+}
+
+.logocard a img {
+  width: 100%;
+  height: 100%;
+}
+
+.websiteuna {
+  display: block;
+  position: relative;
+}
+.websiteuna .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.websiteuna .salute {
+  display: block;
+  position: relative;
+  background-color: #118811;
+  min-height: 100vh;
+  width: 100%;
+  border-left: solid 25px #ffffff;
+  float: left;
+}
+.websiteuna .salute h1 {
+  font-size: 5em;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 25vh 0 0 0;
+  line-height: 1em;
+  color: rgba(255, 255, 255, 0.88);
+}
+.websiteuna .salute sub {
+  margin: 0 0;
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(255, 255, 255, 0.88);
+}
+.websiteuna .salute .mainbutton {
+  margin: 12px 0;
+  padding: 12px;
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #111111;
+  display: block;
+  border: solid 2px #333333;
+  background-color: #ffffff;
+  color: #118111;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.websiteuna .header {
+  background-color: green;
+  border-left: solid 25px #ffffff;
+  padding: 0 25px;
+  height: 50px;
+  display: flex;
+  vertical-align: middle;
+  vertical-align: middle;
+  align-items: center;
+}
+.websiteuna .header .menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+}
+.websiteuna .header .menu span {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+}
+.websiteuna .header .menu span:nth-child(1) {
+  top: 15px;
+}
+.websiteuna .header .menu span:nth-child(2) {
+  top: 23px;
+}
+.websiteuna .header .menu span:nth-child(3) {
+  top: 31px;
+}
+.websiteuna .header .spacer {
+  flex: 1;
+}
+.websiteuna .header .link {
+  display: inline-block;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-left: 24px;
+}
+.websiteuna .header .linkdisabled {
+  display: inline-block;
+  color: #ffffff;
+  opacity: 0.88;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-left: 24px;
+}
+.halffirst {
+  width: 50%;
+  float: left;
+}
+.halfsecond {
+  width: 50%;
+  float: left;
+}
+.video {
+  width: 900px;
+  height: 600px;
+  /* border-top: solid 25px #FFFFFF; */
+  border-radius: 25px 0 0 25px;
+  background-color: #111111;
+  margin-top: 25vh;
+  right: 0;
+  position: absolute;
+}
+.video .play {
+  display: block;
+  position: relative;
+  background: none;
+  width: 100px;
+  height: 100px;
+  margin: 250px auto;
+  background-image: url("../public/images/playwhite.svg");
+  background-size: contain;
+  border: none;
+}
+
+.websiteuna .functions {
+  display: block;
+  position: relative;
+  background-color: #ffffff;
+  min-height: 100vh;
+  width: 100%;
+  border-left: solid 25px #ffffff;
+  float: left;
+}
+.websiteuna .functions h1 {
+  font-size: 5em;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 25vh 0 0 0;
+  line-height: 1em;
+  color: #118811;
+}
+.websiteuna .functions sub {
+  margin: 0 0;
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #118811;
+}
+.websiteuna .functions .mainbutton {
+  margin: 12px 0;
+  padding: 12px;
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #111111;
+  display: block;
+  border: solid 2px #333333;
+  background-color: #ffffff;
+  color: #118111;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.functioncontainer {
+  display: flex;
+  padding-top: 25px;
+  column-gap: 25px;
+  row-gap: 25px;
+}
+.function {
+  background-color: #f8f8f8;
+  box-shadow: 0 0 5px 1px #cccccc;
+  padding: 25px;
+  width: 200px;
+  height: 300px;
+  font-size: 1em;
+}
+.function strong {
+  background-color: #ffff11;
+  padding: 2px;
+  margin: -2px;
+}
+
+.websiteuna .startnow {
+  display: block;
+  position: relative;
+  background-color: #f8f8cc;
+  /* min-height: 50vh; */
+  width: 100%;
+  border-top: dotted 3px #cccccc;
+  /* border-left: solid 25px #ffffff; */
+  float: left;
+  padding-bottom: 12vh;
+}
+.websiteuna .startnow h1 {
+  font-size: 5em;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 12vh 0 0 0;
+  line-height: 1em;
+  color: #118811;
+}
+.websiteuna .startnow sub {
+  margin: 0 0;
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #118811;
+}
+.websiteuna .startnow .mainbutton {
+  margin: 12px 0;
+  padding: 12px;
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #111111;
+  display: block;
+  border: solid 2px #333333;
+  background-color: #ffffff;
+  color: #118111;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1460px) {
+  .websiteuna .salute {
+    height: unset;
+  }
+  .halffirst {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    height: unset;
+    width: 100%;
+    float: left;
+  }
+  .halfsecond {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    height: unset;
+    width: 100%;
+    float: left;
+  }
+  .video {
+    margin-top: 25px;
+    border-radius: 25px;
+    height: 300px;
+    width: 100%;
+  }
+  .video .play {
+    margin-top: 100px;
+  }
+  .functioncontainer {
+    flex-direction: column;
+  }
+  .function {
+    flex: 1;
+    width: unset;
+    height: unset;
+  }
+
+  .websiteuna .startnow h1 {
+    text-align: center;
+  }
+  .websiteuna .startnow sub {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-top: 24px;
+    font-size: 2em;
+  }
+  .websiteuna .startnow .mainbutton {
+    margin: 0 auto;
+    margin-top: 24px;
+  }
 }

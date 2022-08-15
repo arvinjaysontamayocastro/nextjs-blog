@@ -17,10 +17,7 @@ export default function MainLayout({
 }) {
   return (
     <div>
-      <Header></Header>
-      <div>
         <main>{children}</main>
-      </div>
     </div>
   )
 }

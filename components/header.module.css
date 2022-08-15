@@ -3,6 +3,7 @@
   position: relative;
   background-color: #f8f8f8;
   color: #111111;
+  border-top: solid 5px #eeffee;
   border-bottom: dotted 1px #cccccc;
 }
 .container {
@@ -15,6 +16,9 @@
   min-height: 50px;
   vertical-align: middle;
   align-items: center;
+}
+.container.center {
+  max-width: 36rem;
 }
 .container .title {
   flex: 1;

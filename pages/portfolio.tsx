@@ -1,6 +1,9 @@
 import Head from 'next/head'
-import MainLayout, { siteTitle } from '../components/mainlayout'
+import Layout, { siteTitle } from '../components/layout'
+import MainLayout from '../components/mainlayout'
+import styles from '../components/layout.module.css'
 import utilStyles from '../styles/utils.module.css'
+import bodyStyles from '../styles/body.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
@@ -16,13 +19,17 @@ export default function Home({
   }[]
 }) {
   return (
-    <MainLayout home>
-      Portfolio
-      <br />
-      AO <br/>
-      <a href="mailto:ao@baseofui.com">ao@baseofui.com</a>
+    <MainLayout>
+      <div className={bodyStyles.wowportfolio}>
+        <div className={bodyStyles.containercentered}>
+          <h1>Portfolio</h1>
+        </div>
+        {/* <div className={bodyStyles.container}>
+          List
+        </div> */}
+      </div>
     </MainLayout>
-  ) 
+  )
 }
 
 export const getStaticProps: GetStaticProps = async () => {
