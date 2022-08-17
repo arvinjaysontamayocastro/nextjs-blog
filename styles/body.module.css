@@ -134,6 +134,8 @@
 .websitecontainer {
   display: flex;
   padding: 25px 0;
+  column-gap: 24px;
+  row-gap: 24px;
 }
 .website {
 }

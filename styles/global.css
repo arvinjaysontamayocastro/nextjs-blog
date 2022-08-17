@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
 }
@@ -28,4 +28,62 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+.floating {
+  width: 100%;
+  height: 0px;
+  overflow: visible;
+  float: left;
+  z-index: 100;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+.link--backtomenu {
+  text-decoration: none;
+  background-color: #139fff;
+  padding: 24px 12px;
+  float: right;
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  font-size: 0.88em;
+  margin: 12px;
+  border: solid 3px #ffffff;
+  text-align: center;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.container {
+}
+
+.container.center {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container.center.small {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container.center.medium {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.container.center.large {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container.padded {
+  padding: 24px;
+}
+.backdrop {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #333333;
+  opacity: 0.55;
 }
