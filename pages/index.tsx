@@ -21,6 +21,7 @@ export default function Home({
   return (
     <MainLayout>
       <div className={bodyStyles.wowalpha}>
+        {/* <div className='backdrop'></div> */}
         <div className={bodyStyles.containercentered}>
           <pre>Need help with your</pre>
           <h1>online presence?</h1>

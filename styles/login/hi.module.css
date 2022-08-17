@@ -1,7 +1,7 @@
 .greet {
     height: 100vh;
     background-color: #ffffff;
-    background: url('/design/bg-login-hi.jpg');
+    background-image: url('/design/bg-login-hi.jpg');
     background-size: fill;
     background-position: center;
     display: block;

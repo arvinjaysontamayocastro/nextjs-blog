@@ -12,6 +12,11 @@
 .wowalpha {
   padding-top: 12vh;
   padding-bottom: 12vh;
+  background-color: #eeffee;
+  background-color: #ffffff;
+  background-image: url('/design/bg-index2.jpg');
+  background-size: 100%;
+  background-position: center;
 }
 .wowalpha div * {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,

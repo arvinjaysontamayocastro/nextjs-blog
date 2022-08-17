@@ -1,9 +1,9 @@
 .bar {
   display: block;
   position: relative;
-  background-color: #f8f8f8;
+  background-color: #eeffee;
   color: #111111;
-  border-top: solid 5px #eeffee;
+  border-top: solid 12px #11ff88;
   border-bottom: dotted 1px #cccccc;
 }
 .container {
