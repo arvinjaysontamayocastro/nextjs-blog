@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 220 100" version="1.0" width="220" height="100" xmlns="http://www.w3.org/2000/svg">
-  <rect width="40" height="20" y="30" x="90" style="fill:#0F597F;stroke-width:10;"/>
-  <rect width="40" height="20" y="50" x="90" style="fill:#159fff;stroke-width:10;"/>
-  <circle cx="50" cy="50" r="45" stroke="#159fff" stroke-width="10px" fill="transparent"/>
-  <circle cx="170" cy="50" r="45" stroke="#0F597F" stroke-width="10px" fill="transparent"/>
-</svg>

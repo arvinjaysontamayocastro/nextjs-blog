@@ -1,48 +1,27 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# WebApp
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
+## Development server
 
-Pages
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Index: Main page
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Templates
-Bare Minimum
+## Build
 
-Let pages choose their layouts!
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-Let pages choose their components!
+## Running unit tests
 
-Let pages choose how to style their pages!
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Let styles be independent of pages!
+## Running end-to-end tests
 
-Let styles have common accessible page styles.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-Let components accept properties! Less hardcode, easier reuse.
+## Further help
 
-Focus on design now, Phase 2 will be allowing to mix match components in softcode (database saved), now allow using hardcoded softcode (via variables)
-
-Start!
-
-
-
-
-Pages:
-Index
-
-All in Designs/...
-/Login
-/Menu
-/Dashboard
-/Logo
-/Gallery
-/Forms
-/Elements
-/Info
-/Animations
-/Zen
-/Games
-/Portfolio
-/Index
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
